@@ -12,7 +12,7 @@ public:
             if(intervals[i][0]<end){
                 ans++;
             }
-            else if(intervals[i][0]>=end){
+            else{
                 end=intervals[i][1];
             }
         }
